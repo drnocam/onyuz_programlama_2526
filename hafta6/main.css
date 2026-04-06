@@ -1,0 +1,17 @@
+.btn{
+    background-color: rgb(242, 255, 0);
+    color:black;
+    padding:5px 15px;
+    display: inline-block;
+    border-width: 1px;
+    border-color: rgb(0, 0, 100);
+    border-style: solid;
+    cursor:pointer;
+    user-select: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    font-size: 90%;
+}
+.btn:hover{
+    box-shadow: inset 2px 2px 3px rgba(255,255,255,0.5); 
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hafta 4</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{margin:0;}
+        .kutu{
+            border-color:coral;
+            border-width: 3px;
+            border-style: solid; 
+            border-radius: 7px;
+            /* padding-top:3px;
+            padding-right:10px;
+            padding-bottom:3px;
+            padding-left:15px; */
+            padding:3px 10px 3px 15px; 
+            margin:0 5px 5px 1px;
+            width:50px;
+            height:50px;
+            text-align: center;
+        }
+        .yesil_bg {
+            background-color: greenyellow;
+            margin:3px auto;
+        }
+        .kutu:hover{
+            background-color: lightblue;
+            border-color: magenta;
+            cursor: progress;
+            width:60px;
+            height:60px;
+            border-top-right-radius: 50%;
+            /* transition: all 0.3s; */ 
+        }
+        .gizle {
+            /* display: none; */
+            /* visibility: hidden; */
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="kutu ">1</div>
+    <div class="kutu yesil_bg gizle">2</div>
+    <div class="kutu">3</div>
+</body>
+</html>

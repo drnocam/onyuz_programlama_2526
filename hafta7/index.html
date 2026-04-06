@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+         <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <style>
+        /* @keyframes ortayaCik {
+            from { opacity: 0; transform: rotateY(180deg); }
+            to { opacity: 1;transform: rotateY(0); }
+        }
+        .card {
+            animation: ortayaCik 3s ease-in-out;
+        } */
+         .card {
+  --animate-duration: 5.5s;
+}
+@keyframes rotateIn {
+  from {
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.rotateIn {
+  animation-name: rotateIn;
+  transform-origin: center;
+}
+    </style>
+</head>
+<body>
+    <h1>Hafta 7</h1>
+    <p>Bu hafta JavaScript'in temel kavramlarını öğrenmeye devam edeceğiz.</p>
+    <div class="d-flex gap-3 justify-content-center position-relative">
+    <div class="animate__animated card shadow border-primary rotateIn animate__delay-2s	" style="width: 18rem;">
+  <img src="/hafta2/resim.jpg" class="card-img-top" alt="resim">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+    <div class=" animate__animated card shadow border-primary animate__heartBeat  animate__infinite animate__delay-2s	" style="width: 18rem; z-index: 2;">
+  <img src="/hafta2/resim.jpg" class="card-img-top" alt="resim">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+    <div class=" animate__animated card shadow border-primary animate__backInDown animate__delay-2s 	" style="width: 18rem;">
+  <img src="/hafta2/resim.jpg" class="card-img-top" alt="resim">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div> 
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>
