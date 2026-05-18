@@ -1,0 +1,9 @@
+
+.counter {
+  font-size: 2rem;
+  padding: 1rem;
+}
+.counter:hover{
+  background-color: #000;
+  color: #fff;
+}

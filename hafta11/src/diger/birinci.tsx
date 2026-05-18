@@ -37,7 +37,7 @@ function Birinci() {
   ]}
   series={[
     {
-      data: [2, 5, 3],
+      data: [2, 5, 13],
     },
   ]}
   height={300}
